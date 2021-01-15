@@ -72,11 +72,11 @@ Picture 1 below represents a stored procedure to calculate the average rating of
 
 **Picture 1**: Stored procedure named ‘Calculate_Driver’ that takes an integer parameter (the number of the driver) and SQL code (in the body of the stored procedure) that calculates the ratings for the driver.
 
-![Picture 1](images/stored_procedure_pic_1_png)
+![Picture 1](images/stored_procedure_pic_1.png)
 
 **Picture 2**: Calling a stored procedure and passing the parameter ‘3’ to calculate the ratings for driver ID 3.
 
-![Picture 2](images/stored_procedure_pic_2_png)
+![Picture 2](images/stored_procedure_pic_2.png)
 
 #### Calculate Driver
 
