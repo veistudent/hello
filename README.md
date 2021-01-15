@@ -72,11 +72,11 @@ Picture 1 below represents a stored procedure to calculate the average rating of
 
 **Picture 1**: Stored procedure named ‘Calculate_Driver’ that takes an integer parameter (the number of the driver) and SQL code (in the body of the stored procedure) that calculates the ratings for the driver.
 
-![Picture 1](https://raw.githubusercontent.com/aaronfranke/ITCS-3160-Group-10/master/screenshots/stored_procedure_pic_1.png)
+![Picture 1](images/stored_procedure_pic_1_png)
 
 **Picture 2**: Calling a stored procedure and passing the parameter ‘3’ to calculate the ratings for driver ID 3.
 
-![Picture 2](https://raw.githubusercontent.com/aaronfranke/ITCS-3160-Group-10/master/screenshots/stored_procedure_pic_2.png)
+![Picture 2](images/stored_procedure_pic_2_png)
 
 #### Calculate Driver
 
@@ -96,15 +96,15 @@ The tables in our project contain indexes for the primary and foreign keys and w
 
 **Exhibit A**: run time without indexing. MySQL’s Explain view shows that query run time totaled 20.75 milliseconds as the search engine performed a full table scan.
 
-![Exhibit A](https://raw.githubusercontent.com/aaronfranke/ITCS-3160-Group-10/master/screenshots/exhibit_a.png)
+![Exhibit A](images/indexingExhibitA.jpg)
 
 **Exhibit B**: index of column ‘person_name” on table ‘person.’
 
-![Exhibit B](https://raw.githubusercontent.com/aaronfranke/ITCS-3160-Group-10/master/screenshots/exhibit_b.png)
+![Exhibit B](images/indexingExhibitB.png)
 
 **Exhibit C**: run time with indexing enabled. MySQL’s Explain view shows that query run time totaled 0.35 milliseconds yielding an increase greater than 98% in search efficiency.
 
-![Exhibit C](https://raw.githubusercontent.com/aaronfranke/ITCS-3160-Group-10/master/screenshots/exhibit_c.png)
+![Exhibit C](images/indexingExhibitC.png)
 
 ## Web/App Implementation
 
